@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="10dp" android:layout_width="10dp" android:id="@+id/toolbar">
+
+    <item
+        android:id="@+id/add"
+        android:onClick="addJob"
+        android:title="Add Job Offer"
+        android:visible="true" />
+    <item
+        android:id="@+id/edit"
+        android:onClick="editJob"
+        android:title="Edit Job Offer" />
+    <item
+        android:id="@+id/delete"
+        android:onClick="deleteJob"
+        android:title="Delete Job Offer" />
+    <item
+        android:id="@+id/backToMainMenu"
+        android:onClick="returnToMainMenu"
+        android:title="Back to Main Menu" />
+</menu>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="738dp"
+        android:orientation="vertical"
+        app:layout_constraintBaseline_toBaselineOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Compare Result"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            tools:layout_editor_absoluteX="-187dp"
+            tools:layout_editor_absoluteY="407dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="677dp"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <!-- First Row -->
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Company" />
+
+                    <TextView
+                        android:id="@+id/r1c2"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/r1c3"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="" />
+                </TableRow>
+
+                <!-- Second Row -->
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="10dp"
+
+                        android:text="Title" />
+
+                    <TextView
+                        android:id="@+id/r2c2"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/r2c3"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="10dp"
+
+                        android:text="Location" />
+
+                    <TextView
+                        android:id="@+id/r3c2"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/r3c3"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="10dp"
+
+                        android:text="Cost of Living" />
+
+                    <TextView
+                        android:id="@+id/r4c2"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/r4c3"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="10dp"
+
+                        android:text="Yearly Salary" />
+
+                    <TextView
+                        android:id="@+id/r5c2"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/r5c3"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="10dp"
+
+                        android:text="Yearly Bonus" />
+
+                    <TextView
+                        android:id="@+id/r6c2"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/r6c3"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="10dp"
+
+                        android:text="Fund:" />
+
+                    <TextView
+                        android:id="@+id/r7c2"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/r7c3"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="10dp"
+
+                        android:text="Leave Time" />
+
+                    <TextView
+                        android:id="@+id/r8c2"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/r8c3"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="10dp"
+
+                        android:text="Days per week" />
+
+                    <TextView
+                        android:id="@+id/r9c2"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/r9c3"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TableLayout>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="160dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="95dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="AnotherCompare"
+                    android:text="Another Comparison" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="returnToMainMenu"
+                    android:text="Main menu" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
